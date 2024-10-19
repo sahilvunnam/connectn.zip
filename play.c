@@ -21,7 +21,7 @@ bool isValidFormat(const int num_args_needed, const int num_args_read, bool shou
 		scanf("%c", &should_be_newline);
 		format_is_correct = format_is_correct && should_be_newline == '\n';
 	 }
-	return true;
+	return format_is_correct;
 }
 
 int get_Move(char** board, const int rows, const int cols, char blank_char){
