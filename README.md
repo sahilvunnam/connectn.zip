@@ -1,6 +1,6 @@
 # Connect N
 
-Overview
+## Overview
 This project implements a command-line version of a "Connect-N" game. Players take turns placing their pieces on a grid, aiming to line up a specified number of consecutive pieces in any direction (horizontal, vertical, or diagonal) to win. The game supports customizable board dimensions and win conditions.
 
 Features
